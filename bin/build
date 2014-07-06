@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# This script builds a standalone JAR with the application,
+# including all resources.
+
+lein cljsbuild once
+lein uberjar
